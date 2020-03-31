@@ -1,0 +1,159 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Acme&display=swap');
+body{
+    background-color: #000000;
+}
+div#interface{
+    background: url(../_imagens/backgroundFundo.gif);
+    width: 900px;
+    margin: -15px auto 0px auto;
+    box-shadow: 5px 5px 5px rgba(255,255,255, .5);
+    padding: 10px;
+}
+header#cabecalho{
+    width: 900px;
+    height: 370px;
+    padding: 0px;
+}
+header#cabecalho img#logo{
+    position: absolute;
+    left: 230px;
+    bottom: 70px;
+}
+nav#menu h1{
+    display: none;
+}
+nav#menu ul{
+    list-style: none;
+    position: absolute;
+    left: 715px;
+    top:-10px;
+    text-transform: uppercase;
+}
+nav#menu li{
+    display: inline-block;
+    font-family: 'Trebuchet MS';
+    font-weight: bolder;
+    font-size: 25pt;
+    margin: 0px 0px 0px 0px;
+    padding: 5px 10px 5px 10px;
+    transition: background-color 1s;
+}
+nav#menu li:hover{
+    background-color: rgb(159, 0,25);
+    border: 2px solid black;
+    margin: 0px -2px 0px -2px;
+    padding: 3px 10px 5px 10px;
+}
+nav#menu a{
+    text-decoration: none;
+    color: black;
+}
+
+nav#menu img#logoMenu{
+    position: absolute;
+    top:-20px;
+    left: 960px;
+    width: 100px;
+    height: 100px;  
+}
+section#corpo{
+    width: 750px;
+    border: 7px solid rgb(159, 0,25);
+    position: relative;
+    left: 70px;
+    margin-top:30px ;
+    background: url(../_imagens/background_section_t.gif) no-repeat;
+}
+section#corpo ul#titulos{
+    margin-top:-80px;
+    margin-left:-5px;
+    margin-bottom: none;
+    width: 710px;
+    height: 70px;
+    list-style: none;
+}
+section#corpo li{
+    display: inline-block;
+    font-family: 'Acme' , sans-serif;
+}
+section#corpo li#boasvindas{
+    width: 150px;
+    height: 60px;
+    font-size: 12pt;
+    font-weight: bolder;
+    margin-left: -40px;
+    text-align: left;
+}
+section#corpo li#img_newcoo{
+    position: absolute;
+    margin-top: 1px;
+    margin-left:-30px ;
+    font-size: 15pt;
+}
+section#corpo li#img_newcoo img#newcoo{
+    height: 80px;
+}
+section#corpo li#titulo{
+    width: 530px;
+    height: 60px;
+    margin-left: 60px;
+    padding-top:30px;
+    font-size: 28pt;
+    font-weight: bold;
+    text-align:left;
+}
+article#artigo-principal{
+    margin-top:-5px;
+    font-family: 'Acme', sans-serif;
+    font-size: 12pt;
+}
+article#artigo-principal ul{
+    margin-top: -3px;
+    list-style: none;
+}
+article#artigo-principal li{
+    width: 310px;
+    height: 270px;
+    margin: 10px 10px 10px 10px;
+    transition:  all .2s ease-in;
+}
+article#artigo-principal li:hover{
+    transform: scale(1.1);    
+}
+article#artigo-principal li a{
+    text-decoration: none;
+    color:rgb(159, 0,25);
+}
+article#artigo-principal li h2{
+    text-align: center;
+    margin-top: 0px;
+}
+article#artigo-principal li#post01 img#img_post01{
+    border: 5px solid black;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.7);
+}
+footer#rodape{
+    height: 50px;
+    padding-top: 10px;
+    padding-bottom: -10px;
+    margin-bottom: -5px;
+}
+footer#rodape p{
+    text-align: center;
+    font-family: 'Times New Roman';
+    font-size: 13pt;
+    margin-top: -10px;
+    margin-bottom: -10px; 
+    font-weight: bolder;    
+}
+footer#rodape p#p_1_rodape{
+ color: blue;
+ font-size: 15pt;
+ font-weight: bolder;
+}
+footer#rodape p#p_1_rodape a#contato{
+    text-decoration: none;
+    color: rgb(5, 108, 168);
+}
+

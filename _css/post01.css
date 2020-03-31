@@ -1,0 +1,171 @@
+@charset "UTF-8";
+
+/* Toda a parte de Design do site (que permanece o mesmo após alterar a página) está delimitado entre ---- , preferi manter a estrutura como está abaixo (seguindo header, section e footer, assim a estrutura do css fica organizada semanticamente*/
+
+/*---------------Daqui...------------------------*/
+
+@import url('https://fonts.googleapis.com/css?family=Acme&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700&display=swap');
+body{
+    background-color: #000000;
+}
+div#interface{
+    background: url(../_imagens/backgroundFundo.gif);
+    width: 900px;
+    margin: -15px auto 0px auto;
+    box-shadow: 5px 5px 5px rgba(255,255,255, .5);
+    padding: 10px;
+}
+header#cabecalho{
+    width: 900px;
+    height: 370px;
+    padding: 0px;
+
+}
+header#cabecalho img#logo{
+    position: absolute;
+    left: 230px;
+    bottom: 70px;
+}
+nav#menu h1{
+    display: none;
+}
+nav#menu ul{
+    list-style: none;
+    position: absolute;
+    left: 715px;
+    top:-10px;
+    text-transform: uppercase;
+}
+nav#menu li{
+    display: inline-block;
+    font-family: 'Trebuchet MS';
+    font-weight: bolder;
+    font-size: 25pt;
+    margin: 0px 0px 0px 0px;
+    padding: 5px 10px 5px 10px;
+    transition: background-color 1s;
+}
+nav#menu li:hover{
+    background-color: rgb(159, 0,25);
+    border: 2px solid black;
+    margin: 0px -2px 0px -2px;
+    padding: 3px 10px 5px 10px;
+}
+nav#menu a{
+    text-decoration: none;
+    color: black;
+}
+nav#menu img#logoMenu{
+    position: absolute;
+    top:-20px;
+    left: 960px;
+    width: 100px;
+    height: 100px;  
+    
+}
+section#corpo{
+    width: 750px;
+    border: 7px solid rgb(159, 0,25);
+    position: relative;
+    left: 70px;
+    margin-top:40px; /* o margin top delimita a distancia dos títulos do artigo até a logo do menu(header) */
+    background: url(../_imagens/background_section_t.gif);
+    
+}
+
+/*--------------------...Até aqui.-------------------------*/
+
+section#corpo ul#titulos{
+    margin-top:-85px;
+    margin-left:-5px;
+    width: 710px;
+    height: 70px;
+    list-style: none;
+}
+section#corpo ul#titulos li{
+    display: inline-block;
+    font-family:'Acme', sans-serif;
+}
+section#corpo ul#titulos li#data{
+    width: 100px;
+    height: 70px;
+    font-size: 12pt;
+    font-weight: bolder;
+    margin-right:25px;
+    margin-left: -40px;
+    text-align: left;
+}
+section#corpo ul#titulos li#titulo{
+    width: 460px;
+    height: 70px;
+    font-size: 24pt;
+    font-weight: bold;
+    margin-right:14px;
+    text-align: center;
+}
+section#corpo ul#titulos li#autor{
+    width: 140px;
+    height: 70px;
+    font-size: 15pt;
+    font-weight: bolder;
+    text-align: right;
+}
+article#artigo-principal{
+    padding: 5px 7px 2px 7px;
+}
+article#artigo-principal p{
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 16pt;
+    text-align: justify;
+    text-indent: 50px;
+}
+article#artigo-principal img#meliuz_passo1{
+    margin-left: 40px;
+    border: 5px solid rgb(159, 0,25);
+}
+article#artigo-principal img#meliuz_passo1-1{
+    margin-left: 40px;
+    border: 5px solid rgb(159, 0,25);
+}
+article#artigo-principal img#meliuz_passo2{
+    margin-left: 40px;
+    border: 5px solid rgb(159, 0,25);
+}
+article#artigo-principal img#meliuz_passo3{
+    margin-left: 40px;
+    border: 5px solid rgb(159, 0,25);
+}
+article#artigo-principal img#meliuz_passo4{
+    margin-left: 40px;
+    border: 5px solid rgb(159, 0,25);
+}
+
+/*--------------------Daqui...--------------------*/
+
+footer#rodape{
+    height: 50px;
+    padding-top: 10px;
+    padding-bottom: -10px;
+    margin-bottom: -5px;
+}
+footer#rodape p{
+    text-align: center;
+    font-family: 'Times New Roman';
+    font-size: 13pt;
+    margin-top: -10px;
+    margin-bottom: -10px; 
+    font-weight: bolder;    
+}
+footer#rodape p#p_1_rodape{
+ color: blue;
+ font-size: 15pt;
+ font-weight: bolder;
+}
+footer#rodape p#p_1_rodape a#contato{
+    text-decoration: none;
+    color: rgb(5, 108, 168);
+}
+
+/*------------------------...Até aqui.------------------*/
